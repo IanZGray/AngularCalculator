@@ -80,7 +80,7 @@ export class AppComponent {
     this.calValue = total
     this.firstNumber = total
     this.secondNumber = 0
-    this.calNumber = 'total'
+    this.calNumber = total.toString()
     this.funcT = val
     if(val == '=') {
       this.onEqualPress()
