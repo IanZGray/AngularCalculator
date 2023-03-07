@@ -68,7 +68,7 @@ export class AppComponent {
         this.totalAssignValues(total, val);
         break;
       case '%':
-        total = this.firstNumber % this.secondNumber
+        total = (this.firstNumber / 100) * this.secondNumber
         this.totalAssignValues(total, val);
         break;
       default:
